@@ -113,7 +113,6 @@ class DeviceTree:
 		self._render_template(device_tree_folder, "twrp_device.mk", out_file=f"twrp_{self.device_info.codename}.mk")
 		self._render_template(device_tree_folder, "README.md")
 		self._render_template(device_tree_folder, "setup-makefiles.sh")
-		self._render_template(device_tree_folder, "vendorsetup.sh")
 
 		# Set permissions
 		chmod(device_tree_folder / "extract-files.sh", S_IRWXU | S_IRGRP | S_IROTH)

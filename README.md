@@ -11,10 +11,10 @@ Requires Python 3.8 or greater
 ## Installation
 
 ```sh
-pip3 install twrpdtgen
+git clone https://github.com/maydoxx/twrpdtgen
 ```
 
-Linux only: Be sure to have cpio installed in your system (Install cpio using `sudo apt install cpio` or `sudo pacman -S cpio` based on what package manager you're using)
+Linux only: Be sure to have cpio & git installed in your system (Install cpio using `sudo apt install cpio git` or `sudo pacman -S cpio git` based on what package manager you're using)
 
 ## Instructions
 
